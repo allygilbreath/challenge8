@@ -1,19 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Challenge 7</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container mt-4">
+    <div class="row align-items-center">
+
+      <div class="col-md-3 text-start mb-2">
+        <div class="dropdown">
+          <button class="btn btn-outline-secondary fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Popular
+          </button>
+
+          <ul class="dropdown-menu">
+
+            <li><a class="dropdown-item" href="#">Popular</a></li>
+            <li><a class="dropdown-item" href="#">Recent</a></li>
+            <li><a class="dropdown-item" href="#">Trending</a></li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 offset-md-1 text-center mb-2">
+        <a href="#" class="btn btn-link fw-bold text-decoration-none text-dark">Discover</a>
+
+        <a href="#" class="btn btn-link fw-bold text-decoration-none text-dark">Animation</a>
+        <a href="#" class="btn btn-link fw-bold text-decoration-none text-dark">Branding</a>
+          <a href="#" class="btn btn-link fw-bold text-dark text-decoration-none">Illustration</a>
+        <a href="#" class="btn btn-link fw-bold text-dark text-decoration-none">Mobile</a>
+        <a href="#" class="btn btn-link fw-bold text-dark text-decoration-none">Print</a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="siege.jpg" class="card-img-top" alt="Icon set 1">
+          <div class="card-body">
+            <h5 class="card-title">Siege Media</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="orman.jpg" class="card-img-top" alt="Icon set 2">
+          <div class="card-body">
+            <h5 class="card-title">Orman Clark</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="jordan.jpg" class="card-img-top" alt="Icon set 3">
+          <div class="card-body">
+            <h5 class="card-title">Jordan Cheung</h5>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="aldo.jpg" class="card-img-top" alt="Icon set 4">
+          <div class="card-body">
+            <h5 class="card-title">Aldo Crusher</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="canto.jpg" class="card-img-top" alt="Icon set 5">
+          <div class="card-body">
+            <h5 class="card-title">Canto</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="ramyy.jpg" class="card-img-top" alt="Icon set 6">
+          <div class="card-body">
+            <h5 class="card-title">Ramy Wafaa</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

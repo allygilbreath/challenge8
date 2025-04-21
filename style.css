@@ -1,0 +1,13 @@
+
+a.active {
+    font-weight: bold;
+  }
+  
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+  }
+  
